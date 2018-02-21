@@ -1,0 +1,29 @@
+#maintitle {
+  font-size: 40px;
+  color: #2F3F73;
+  width: 250px;
+  min-height: 30px;
+  border: 2px solid #2F3F73;
+  font-family: 'Dancing Script', cursive;
+  }
+.largetext { font-size: 36px; }
+main {
+  width:800px;
+  border: 1px dotted black;
+}
+a {
+  color: Green;
+  text-decoration:none;
+}
+.sectionheader {
+  font-size: 20px;
+  font-style: italic;
+}
+a:hover {color:orange;
+        text-decoration: underline;
+      }
+a:visited {color:blue}
+.images {
+  width: 300px;
+  height: auto;
+}
