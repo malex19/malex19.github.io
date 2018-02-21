@@ -30,3 +30,6 @@ a:visited {color:blue}
 .organisation {
   font-style: italic;
 }
+.boldtext {
+  font-weight: bold;
+}
