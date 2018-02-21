@@ -27,3 +27,6 @@ a:visited {color:blue}
   width: 300px;
   height: auto;
 }
+.organisation {
+  font-style: italic;
+}
