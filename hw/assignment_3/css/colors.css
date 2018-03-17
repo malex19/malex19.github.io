@@ -1,12 +1,12 @@
-.dark-bg { background: #AE4300}
-.medium-bg { background: #FF6708}
-.light-bg { background: #FFA066}
+.dark-bg { background: #F90012}
+.medium-bg { background: #F90012}
+.light-bg { background: #A7000C}
 
 /* comment */
 
-.dark-txt { color: #AE4300}
-.medium-txt { color: #FF6708}
-.light-txt { color: #FFA066}
+.dark-txt { color: Gold}
+.medium-txt { color: Gold}
+.light-txt { color: Gold}
 
 body {
   padding: 0;
@@ -21,4 +21,5 @@ nav a {
 }
 a:hover {
   text-decoration: underline;
+  color: green
 }
