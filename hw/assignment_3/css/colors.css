@@ -1,6 +1,6 @@
-.dark-bg { background: #F90012}
-.medium-bg { background: #F90012}
-.light-bg { background: #A7000C}
+.dark-bg { background: #000C55}
+.medium-bg { background: #000C55}
+.light-bg { background: #001076}
 
 /* comment */
 
@@ -21,5 +21,5 @@ nav a {
 }
 a:hover {
   text-decoration: underline;
-  color: green
+  color: white
 }
