@@ -30,3 +30,24 @@ a:hover {
     margin-right: auto;
     border: 1px solid black;
 }
+
+.gallery {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #CCCCCC;
+}
+.clear { clear: both;}
+.gallery ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.gallery li {
+  border: 1px solid #CCCCCC;
+  display: block;
+}
+img {max-width: 100%}
+.gallery li {
+  border: 1px solid #CCCCCC;
+  display: block;

@@ -16,9 +16,34 @@ nav li {
   font-size: 32px;
   padding-top: 15px;
   padding-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
   display: inline;
 }
-.images {padding: 2in;
+.images {padding: 5px;
+}
+.gallery li {
+  border: 1px solid #CCCCCC;
+  display: block;
+  float: left;
+  width: 29%;
+  margin: 2%;
+}
+.gallery {width: 960px}
+.historyBlock {display: block;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.leftContent {
+display: block;
+width: 40%;
+float: left;
+}
 
+.rightContent {
+  display: block;
+  width: 40%;
+  float: right;  
 }
