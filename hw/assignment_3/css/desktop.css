@@ -23,11 +23,11 @@ nav li {
 .images {padding: 5px;
 }
 .gallery li {
-  border: 1px solid #CCCCCC;
+  border: .5px solid #CCCCCC;
   display: block;
   float: left;
-  width: 29%;
-  margin: 2%;
+  width: 25%;
+  margin: 3%;
 }
 .gallery {width: 960px}
 .historyBlock {display: block;
@@ -45,5 +45,5 @@ float: left;
 .rightContent {
   display: block;
   width: 40%;
-  float: right;  
+  float: right;
 }
