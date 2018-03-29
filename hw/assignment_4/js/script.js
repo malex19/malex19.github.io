@@ -1,7 +1,7 @@
 $(function(){
   //Hide stuff
 
-  $('#getStarted, #finish, #previous, .hide').hide();
+  $('#getStarted, #finish, #previous, .hide, #survey').hide();
 
   //alert("Hello");
   $('#title').on('mouseover',function(){
@@ -18,9 +18,27 @@ $('#getStarted').on('click', function(){
 });
 $('#finish').on('click', function(){
   $('.hide, #next, #previous, #finish').hide();
+  $('#survey').show()
 
 });
 
+//survey
+$('#yes').on('click',function() {
+  $('#surveyTitle').css("background-color","green");
+  $('#survey').css({
+    "border":"1px solid green",
+    "background":"#ccc"
+  });
+
+});
+$('#no').on('click',function() {
+  $('#surveyTitle').css("background-color","red");
+  $('#survey').css({
+    "border":"1px solid red",
+    "background":"#ccc"
+  });
+
+});
 $('#next').on('click',function(){
   var currentItem = $('li.active');
   var nextItem = $('li.active').next();
