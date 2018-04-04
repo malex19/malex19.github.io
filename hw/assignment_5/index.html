@@ -35,10 +35,11 @@
     <a class="play-pause"></a>
     <ol class="indicator"></ol>
 </div>
-
+<h1 class="fancy_title">Some Title</h1>
 
 <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
 <script src="gallery/js/blueimp-gallery.min.js"></script>
+<script src="Lettering.js/jquery.lettering.js"></script>
 
 <!-- <script>
 document.getElementById('links').onclick = function (event) {
@@ -58,6 +59,11 @@ blueimp.Gallery(
         carousel: true
     }
 );
+</script>
+<script>
+	  $(document).ready(function() {
+	    $(".fancy_title").lettering();
+	  });
 </script>
   </body>
 
