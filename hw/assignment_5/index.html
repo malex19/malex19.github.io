@@ -6,46 +6,16 @@
     <link rel="stylesheet" href="gallery/css/blueimp-gallery.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>jQuery UI Tabs - Default functionality</title>
-      <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+      <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/overcast/jquery-ui.css">
       <link rel="stylesheet" href="/resources/demos/style.css">
-      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-      <script>
-      $( function() {
-        $( "#tabs" ).tabs();
-      } );
-      </script>
+
+
   </head>
   <body class="image-bg">
 <h1 class="title">Sorrento, Italy</h1>
 
     <!-- The Gallery as lightbox dialog, should be a child element of the document body -->
-    <div id="blueimp-gallery" class="blueimp-gallery">
-        <div class="slides"></div>
-        <h3 class="title"></h3>
-        <a class="prev">‹</a>
-        <a class="next">›</a>
-        <a class="close">×</a>
-        <a class="play-pause"></a>
-        <ol class="indicator"></ol>
-    </div>
 
-    <div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
-        <div class="slides"></div>
-        <h3 class="title"></h3>
-        <a class="prev">‹</a>
-        <a class="next">›</a>
-        <a class="play-pause"></a>
-        <ol class="indicator"></ol>
-    </div>
-
-    <div id="links">
-      <a href="/Users/Malexarell/Documents/GitHub/malex19.github.io/malex19.github.io/hw/assignment_5/gallery/pictures/Sorrento_Title.jpeg" title="Title">
-      </a>
-      <a href="/Users/Malexarell/Documents/GitHub/malex19.github.io/malex19.github.io/hw/assignment_5/gallery/pictures/Sorrento_Coast.jpg" title="Coast">
-      </a>
-      <a href="/Users/Malexarell/Documents/GitHub/malex19.github.io/malex19.github.io/hw/assignment_5/gallery/pictures/Sorrento_Water.jpg" title="Water"></a>
-    </div>
     <section>
       <p class="text">Sorrento is a city on the Amalfi coast in Southern Italy. Often considered one of the top destinations to visit in Italy, Sorrento is center to many excursion opportunities and incredible sites in the Italian countryside. </p>
     </section>
@@ -62,9 +32,9 @@
 
     <div id="tabs">
       <ul>
-        <li><a href="#tabs-1">Nunc tincidunt</a></li>
-        <li><a href="#tabs-2">Proin dolor</a></li>
-        <li><a href="#tabs-3">Aenean lacinia</a></li>
+        <li><a href="#tabs-1">Naples</a></li>
+        <li><a href="#tabs-2">Capri</a></li>
+        <li><a href="#tabs-3">Blue Grotto</a></li>
       </ul>
       <div id="tabs-1">
         <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
@@ -77,9 +47,34 @@
         <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
       </div>
     </div>
-<script src="http://code.jquery.com/jquery-3.3.1.js"></script>
-<script src="gallery/js/blueimp-gallery.min.js"></script>
 
+
+<div id="blueimp-gallery" class="blueimp-gallery">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
+
+<div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
+
+<div id="links">
+  <a href="/Users/Malexarell/Documents/GitHub/malex19.github.io/malex19.github.io/hw/assignment_5/gallery/pictures/Sorrento_Title.jpeg" title="Title">
+  </a>
+  <a href="/Users/Malexarell/Documents/GitHub/malex19.github.io/malex19.github.io/hw/assignment_5/gallery/pictures/Sorrento_Coast.jpg" title="Coast">
+  </a>
+  <a href="/Users/Malexarell/Documents/GitHub/malex19.github.io/malex19.github.io/hw/assignment_5/gallery/pictures/Sorrento_Water.jpg" title="Water"></a>
+</div>
 <!-- <script>
 document.getElementById('links').onclick = function (event) {
     event = event || window.event;
@@ -90,6 +85,14 @@ document.getElementById('links').onclick = function (event) {
     blueimp.Gallery(links, options);
 };
 </script> -->
+<script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="gallery/js/blueimp-gallery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+$( function() {
+  $( "#tabs" ).tabs();
+} );
+</script>
 <script>
 blueimp.Gallery(
     document.getElementById('links').getElementsByTagName('a'),
