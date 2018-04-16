@@ -8,6 +8,15 @@ background-position: center; }
 .text {color: whites}
 .box_textshadow {
   text-shadow: 1px 1px 3px #000;
-  color: white; /* Chrome, Firefox 3.5+, IE 10+, Opera 9+, Safari 1+ 
+  color: white; }
+  .image {padding-left: 350px
 }
+.caption {padding-left: 350px}
+.imageTwo {padding-left:175px}
+.imageThree {padding-left:350px}
+
+
+  /* Chrome, Firefox 3.5+, IE 10+, Opera 9+, Safari 1+
+}
+
 /* */
